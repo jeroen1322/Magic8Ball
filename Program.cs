@@ -29,7 +29,7 @@ namespace Magic8Ball
             while (true)
             {
                 string vraagString = krijgVraagVanUser();
-                //Check of de user "quit" heeft geschreven
+                //Check of de user "stop" heeft geschreven
                 if (vraagString.ToLower() == "stop")
                 {
                     break;
